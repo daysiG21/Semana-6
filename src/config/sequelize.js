@@ -1,5 +1,4 @@
 import {Sequelize} from "sequelize";
-
 export const conexion = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL, {
       dialect: "mysql",
